@@ -1,0 +1,59 @@
+:root {
+    --grey:#8D98A7;
+    --brown:#A7754D;
+    --white:#e6ded6;
+    --yellow:#EAB464;
+}
+
+
+
+body {
+    background-color: var(--brown);
+    color:var(--white);
+}
+
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.text-grey {
+    color: var(--grey);
+}
+
+.text-brown {
+    color: var(--brown);
+}
+
+.text-white {
+    color: var(--white);
+}
+
+/* btn */
+
+.btn-custom {
+    background-color: var(--grey);
+    border: 5px solid var(--white);
+    padding: 20px 40px;
+}
+
+.btn-custom:hover {
+    
+        background-color: var(--grey);
+        border: 5px solid var(--white);
+        padding: 20px 40px;
+        color: var(--yellow);
+}
+
+
+.iconaInput{
+    width: 30px;
+}
+
+.card-custom{
+    height: 100px;
+    border: 10px solid var(--grey);
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
